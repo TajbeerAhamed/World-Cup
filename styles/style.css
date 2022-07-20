@@ -53,6 +53,11 @@ hr {
     border-radius: 5px;
     font-size: 20px;
     margin-top: 20px;
+    transition: 0.3s;
+}
+
+.Watch-button:hover {
+    background-color: blueviolet;
 }
 
 .header-img img {
@@ -105,6 +110,10 @@ hr {
 
 }
 
+.button:hover {
+    /* background-color: #f30e0e; */
+}
+
 #red-color {
     background-color: #f30e0e;
     color: #ffffff;
@@ -120,6 +129,7 @@ hr {
 }
 
 .blog-thumbnail {
+
     width: 312px;
     height: 362px;
     border: 1px solid #B9B9B9;
@@ -128,8 +138,27 @@ hr {
     border-radius: 10px;
 }
 
+
+
 .blog-thumbnail button {
     display: block;
+}
+
+.another-thumbnail {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 50px;
+
+}
+
+.vs-design {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-info {
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .transfer-padding {
@@ -237,4 +266,27 @@ footer {
 .fa-linkedin {
     color: rgb(83, 167, 206);
     font-size: 35px;
+}
+
+/* Media-queries */
+/* Tablet-devices */
+/* @media only screen and (min-width:688) and (max-width:982) { */
+.header-container {
+    /* width: 100%; */
+}
+
+/* .blog-detail { */
+/* grid-template-columns: repeat(2, 1fr); */
+/* } */
+/* } */
+
+/* Mobile-Device */
+@media only screen and (max-width:686px) {
+    .header-heading {
+        fl
+    }
+
+    . header-img {
+        width: 100%;
+    }
 }
