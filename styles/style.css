@@ -32,8 +32,14 @@ hr {
     color: white;
     padding-top: 65px;
     padding-bottom: 60px;
-
 }
+
+.header-container:hover {
+    background-color: #044969;
+    cursor: pointer;
+}
+
+
 
 .header-heading {
     width: 780px;
@@ -53,11 +59,13 @@ hr {
     border-radius: 5px;
     font-size: 20px;
     margin-top: 20px;
-    transition: 0.3s;
+
 }
 
 .Watch-button:hover {
     background-color: blueviolet;
+    transition: 0.8s;
+    cursor: pointer;
 }
 
 .header-img img {
@@ -110,9 +118,7 @@ hr {
 
 }
 
-.button:hover {
-    /* background-color: #f30e0e; */
-}
+
 
 #red-color {
     background-color: #f30e0e;
@@ -281,9 +287,9 @@ footer {
 /* } */
 
 /* Mobile-Device */
-@media only screen and (max-width:686px) {
-    .header-heading {
-        fl
+@media only screen and (max-width:680px) {
+    .header-container {
+        grid-template-rows: repeat(2, 340px);
     }
 
     . header-img {
